@@ -11,3 +11,7 @@ yarn-error.log*
 /.changelog
 .npm/
 yarn.lock
+
+# Auto generated directories.
+.bit
+public/

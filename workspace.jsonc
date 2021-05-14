@@ -4,17 +4,26 @@
     "name": "base-ui",
     "icon": "https://static.bit.dev/bit-logo.svg",
     "defaultDirectory": "{scope}/{name}",
-    "defaultScope": "my-scope"
+    "defaultScope": "wara-wara.base-ui"
   },
   "teambit.dependencies/dependency-resolver": {
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
-      "dependencies": {},
+      "dependencies": {
+        "@testing-library/react": "11.2.7",
+        "react-number-format": "4.5.5",
+        "theme-ui": "0.8.4"
+      },
       "peerDependencies": {
         "react": "16.13.1",
         "react-dom": "16.13.1"
       }
-    }
+    },
+    "packageManagerArgs": [],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
+    "strictPeerDependencies": true
   },
   "teambit.workspace/variants": {
     "*": {
