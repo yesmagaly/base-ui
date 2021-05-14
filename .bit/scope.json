@@ -1,0 +1,9 @@
+{
+    "name": "react",
+    "remotes": {},
+    "version": "1.0.83",
+    "lanes": {
+        "current": "master",
+        "tracking": []
+    }
+}
